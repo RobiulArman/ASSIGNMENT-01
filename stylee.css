@@ -33,7 +33,7 @@ body {
     right: 221px;
     top: 157px;
     bottom: 4506px; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,7 +93,7 @@ background: rgb(13, 19, 33);
     justify-content: flex-start;
     align-items: center; */
     padding: 80px 97px 80px 97px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 70px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -110,9 +110,10 @@ background: rgb(13, 19, 33);
     align-items: center;
     padding: 0px;
     margin-left: 25px;
+    gap: 10px;
 
     /* margin-top: 100px; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .web-dev-section-1 p {
@@ -284,7 +285,7 @@ background: rgb(13, 19, 33);
     justify-content: flex-start;
     align-items: center; */
     padding: 80px 97px 80px 97px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 20px;
 
     /* margin-bottom: 5px; */
@@ -304,7 +305,7 @@ background: rgb(13, 19, 33);
     /* margin-bottom: 50px; */
 
     /* margin-top: 100px; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .inspiration h3 {
@@ -349,7 +350,7 @@ background: rgb(13, 19, 33);
     height: 463px;
     margin: 0 auto;
     margin-top: 100px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -365,7 +366,7 @@ background: rgb(13, 19, 33);
     text-align: center;
 }
 
-.Target-section p {
+.t-content p {
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -378,19 +379,20 @@ background: rgb(13, 19, 33);
 .t-content {
     width: 852px;
     height: 115px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
     margin-left: 120px;
+    gap: 10px;
 }
 
 .card-container {
     display: flex;
     gap: 90px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 500px;
     margin-top: 25px;
     /* flex-direction: column;
@@ -398,7 +400,7 @@ background: rgb(13, 19, 33);
     align-items: flex-start;
     padding: 0px;
     border: 2px solid red;
-    margin-top: 20px; */
+    margin-top: 20px;  */
 }
 
 .card-1 {
@@ -409,7 +411,7 @@ background: rgb(13, 19, 33);
     justify-content: flex-start;
     align-items: flex-start;
     padding: 40px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     gap: 30px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
@@ -423,7 +425,7 @@ background: rgb(13, 19, 33);
     justify-content: flex-start;
     align-items: flex-start;
     padding: 40px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     gap: 30px;
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
@@ -437,12 +439,19 @@ background: rgb(13, 19, 33);
     justify-content: flex-start;
     align-items: flex-start;
     padding: 40px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     gap: 30px;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
 }
 
+.card-container {
+    color: rgb1(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
 
 /* Submit Section */
 
@@ -451,7 +460,7 @@ background: rgb(13, 19, 33);
     height: 314px;
     margin: 0 auto;
     margin-top: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-image: linear-gradient(0deg,
             rgb(19, 18, 18) -29.5%,
             rgba(0, 0, 0, 0.2) 100%),
@@ -473,7 +482,7 @@ padding: 64px 48px 64px 48px; */
 .submit-content {
     width: 1044px;
     height: 186px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: azure;
     display: flex;
     flex-direction: column;
@@ -535,9 +544,33 @@ padding: 64px 48px 64px 48px; */
 
 }
 
-footer
-{
-width: 1440px;
-height: 100px;
-border: 2px solid red;
+.footer1 {
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 2px solid red; */
+    margin-top: 60px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-conatainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 710px;
+    padding: 0px;
+}
+
+footer h3 {
+    /* border: 2px solid red; */
+    margin-left: 80px;
+}
+
+footer img {
+    padding: 6px;
 }
